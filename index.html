@@ -100,20 +100,7 @@
       </div>
     </div>
     <h2 class = "text-center p-5">Let's get in contact</h2>
-    <form method = "POST" action="contact_me.php">
-      <div class="row">
-        <div class="col-lg-4">
-          <label for="name">Name</label>
-          <input type = "text" class= "form-control" id = "name" name="name">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <label for = "comment">What would you like to say?</label>
-          <textarea name = "comment" class="form-control" id="comment"></textarea>
-        </div>
-      </div>
-    </form>
+    
     <div class="row">
       <div class = "col-lg-4">
         <div class="card border-secondary mb-3" style="max-width: 25rem;">
@@ -127,12 +114,42 @@
       <div class = "col-lg-8">
         <p class = "lead font-weight-normal">
           You can call me from Monday-Friday, 10AM-6PM <br>
-          Send me an email any day of the week, I check my email often
+          Send me an email any day of the week, I check my email often<br>
+          You can additionally send me an email, through the <b>form below</b>
         </p>
       </div>
     </div>
+    <br>
+    <div class="row form-group">
+      <div class="col-lg-4">
+        <label for="name"><p class="lead font-weight-normal">Name</p></label>
+        <input type = "text" class= "form-control" id = "name" name="name">
+      </div>
+    </div>
+    <div class="row form-group">
+      <div class="col-lg-6">
+        <label for = "comment"><p class="lead font-weight-normal">What would you like to say?</p></label>
+        <textarea style="height:150px" name = "comment" class="form-control" id="comment"></textarea>
+      </div>
+    </div>
+    <div class="row form-group">
+      <button style = "margin-left: 15px" onClick="submitData()" class="btn btn-outline-primary">Submit</button>
+    </div>
+   
   </div>
 </main>
+
+<script>
+function submitData() {
+  var name = document.getElementById('name');
+  var message = document.getElementById('comment');
+
+  var xhttp = new XMLHttpRequest();
+  xhttp.open("POST", "data.php", true);
+  xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhttp.send("name=" + name + "&message=" + message);
+}
+</script>
 
 
 <footer class="footer" style = "margin-top: 5%">
