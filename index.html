@@ -154,7 +154,7 @@ function submitData() {
   var xhttp = new XMLHttpRequest();
   xhttp.open("GET", "data.php?" + "name=" + name + "&message=" + message + "&senderEmail=" + senderEmail, true);
   //xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-  //xhttp.send("name=" + name + "&message=" + message + "&senderEmail=" + senderEmail);
+  xhttp.send(/*"name=" + name + "&message=" + message + "&senderEmail=" + senderEmail*/);
 }
 </script>
 
