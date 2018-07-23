@@ -127,6 +127,12 @@
       </div>
     </div>
     <div class="row form-group">
+      <div class="col-lg-4">
+        <label for="email"><p class="lead font-weight-normal">Email</p></label>
+        <input type = "text" class= "form-control" id = "email">
+      </div>
+    </div>
+    <div class="row form-group">
       <div class="col-lg-6">
         <label for = "comment"><p class="lead font-weight-normal">What would you like to say?</p></label>
         <textarea style="height:150px" name = "comment" class="form-control" id="comment"></textarea>
@@ -143,11 +149,12 @@
 function submitData() {
   var name = document.getElementById('name');
   var message = document.getElementById('comment');
+  var senderEmail = document.getElementById('email');
 
   var xhttp = new XMLHttpRequest();
   xhttp.open("POST", "data.php", true);
   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-  xhttp.send("name=" + name + "&message=" + message);
+  xhttp.send("name=" + name + "&message=" + message + "&senderEmail=" + senderEmail);
 }
 </script>
 
