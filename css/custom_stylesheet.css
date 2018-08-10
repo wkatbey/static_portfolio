@@ -11,6 +11,8 @@ position: relative;}
 .card-body-text {font-size: 16px;}
 .body-text {font-size: 20px; font-weight: 400; text-align: left;}
 .card-header {font-size: 23px;}
+/*Resume-Exclusive Classes*/
+.resume-heading {font-size: 27px; font-weight: 300;}
 /*Extra Small Devices*/
 @media (max-width: 575.98px) {
 	div.title-font {font-size: 25px; text-align: left;} div.hero-text {top:50%;left:45%;transform: translate(-45%,-50%);} 
