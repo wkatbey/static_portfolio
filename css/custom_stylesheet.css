@@ -10,18 +10,26 @@ position: relative;}
 .first-card-heading {}
 .card-body-text {font-size: 16px;}
 .body-text {font-size: 20px; font-weight: 400; text-align: left;}
+.image-side-text {font-size: 19px; font-weight: 300; text-align: left;}
 .card-header {font-size: 23px;}
 /*Resume-Exclusive Classes*/
 .resume-heading {font-size: 27px; font-weight: 300;}
+img.self-portrait {height: 500px; width: auto; border-radius: 5px; }
+.black-background {background: linear-gradient(to right, #525252, #3d72b4);color: white;background-position: center;position: relative;background-size: cover;background-repeat: no-repeat;
+}
 /*Extra Small Devices*/
 @media (max-width: 575.98px) {
 	div.title-font {font-size: 25px; text-align: left;} div.hero-text {top:50%;left:45%;transform: translate(-45%,-50%);} 
 	div.subtitle-font {font-size: 15px; font-weight: 600;} div.hero-image {height: 220px;}
 	div.heading-text {font-size: 20px; padding-top: 20px; padding-bottom: 20px;}
 	div.body-text {font-size: 15px;}
-	div.card-heading-text {font-size: 18px; padding-top: 20px;}
+	div.card-heading-text {font-size: 18px; padding-top: 20px;  text-align: center;}
 	div.first-card-heading {padding-top: 0px;}
 	div.card-heading-body {font-size: 15px; padding-left: 5px; padding-right: 5px;}
-	div.card-header {font-size: 20px;}
+	div.card-body-text {font-size: 12px; padding-left: 10px; padding-right: 10px;}
+	div.card-header {font-size: 20px}
+	img.self-portrait {height: 300px; width: auto;}
+	div.image-side-text {padding-top: 20px; font-size: 15px; padding-left: 10px; padding-right: 10px;}
+
 }
 
