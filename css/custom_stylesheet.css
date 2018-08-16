@@ -14,7 +14,7 @@ position: relative;}
 .card-header {font-size: 23px;}
 /*Resume-Exclusive Classes*/
 .resume-heading {font-size: 27px; font-weight: 300;}
-img.self-portrait {height: 500px; width: auto; border-radius: 5px; }
+.self-portrait {height: 500px; width: auto; border-radius: 5px; content: url("../img/primary_pic.jpg")}
 .black-background {background: linear-gradient(to right, #525252, #3d72b4);color: white;background-position: center;position: relative;background-size: cover;background-repeat: no-repeat;
 }
 /*Extra Small Devices*/
