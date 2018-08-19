@@ -1,8 +1,12 @@
-.hero-image {background-image: url("../img/cover_image.jpeg");height: 627px;background-position: center;background-repeat: no-repeat;background-size: cover;
-position: relative;} 
-.hero-text {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #000;}
-.hero-sub-image {background-image: url("../img/cover_image.jpeg");height: 40%;background-position: center;background-repeat: no-repeat;background-size: cover;
+.hero-image {background-image: url("../img/cover_image.jpeg");height: 1000px;background-position: center;background-repeat: no-repeat;background-size: cover;
+background-position: center; } 
+.hero-sub-image {background-image: url("../img/cover_image.jpeg");height: 679px;background-position: center;background-repeat: no-repeat;background-size: cover;
 position: relative;}
+.hero-text {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #000;}
+.hero-large-font {font-size: 70px; font-weight: 300; color: #000000; text-align: center;}
+.hero-large-sub-font {font-size: 35px; font-weight: 300; color: #000000; text-align: center;}
+.hero-small-font {font-size: 50px; font-weight: 300; color: #000000; text-align: center;}
+.hero-small-sub-font {font-size: 30px; font-weight: 300; color: #000000; text-align: center;}
 .title-font {font-size: 50px; color: #000000; text-align: center;} 
 .subtitle-font {font-size: 20px; color: #000000; font-weight: 400; text-align: left;}
 .heading-text {font-size: 32px; text-align: center; padding-top: 48px; padding-bottom: 48px;}
@@ -17,10 +21,26 @@ position: relative;}
 .self-portrait {height: 500px; width: auto; border-radius: 5px; content: url("../img/primary_pic.jpg")}
 .black-background {background: linear-gradient(to right, #525252, #3d72b4);color: white;background-position: center;position: relative;background-size: cover;background-repeat: no-repeat;
 }
+.navbar-transparent { 
+	background: rgba(119,136,153,0); 
+}
+.button-cover {
+	text-align: center;
+}
+.navbar-desktop {
+	display: block;
+}
 /*Extra Small Devices*/
 @media (max-width: 575.98px) {
-	div.title-font {font-size: 25px; text-align: left;} div.hero-text {top:50%;left:45%;transform: translate(-45%,-50%);} 
-	div.subtitle-font {font-size: 15px; font-weight: 600;} div.hero-image {height: 220px;}
+	a#introButton {width: 100px; height: 40px; padding-left: 9px; padding-top: 3px; padding-bottom: 0px; padding-right: 10px; border-color: black; color: black;}
+	a#introButton:hover {background-color: black; color: white;}
+	div.button-cover {text-align: left;}
+	div.hero-large-font {font-size: 30px; text-align: left; font-weight: 400; padding-bottom: 10px;}
+	div.hero-large-sub-font {font-size: 20px; text-align: left; font-weight: 400;}
+	div.title-font {font-size: 25px; text-align: left;} 
+	div.hero-text {top:50%;left:30%;transform: translate(-30%,-50%);} 
+	div.subtitle-font {font-size: 15px; font-weight: 600;} 
+	div.hero-image {height: 400px; background-size: cover;}
 	div.heading-text {font-size: 20px; padding-top: 20px; padding-bottom: 20px;}
 	div.body-text {font-size: 15px;}
 	div.card-heading-text {font-size: 18px; padding-top: 20px;  text-align: center;}
@@ -30,6 +50,5 @@ position: relative;}
 	div.card-header {font-size: 20px}
 	img.self-portrait {height: 300px; width: auto;}
 	div.image-side-text {padding-top: 20px; font-size: 15px; padding-left: 10px; padding-right: 10px;}
-
+	nav.navbar-desktop {display: none;}
 }
-
