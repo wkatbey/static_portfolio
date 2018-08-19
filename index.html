@@ -11,10 +11,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
   <link rel="stylesheet" href="css/custom_stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body class="bg-light">
 <div class = "hero-image">
-  <nav class="navbar navbar-expand-lg navbar-light"  style="background: rgba(119,136,153,0)">
+  <nav class="navbar navbar-expand-lg navbar-light navbar-transparent navbar-desktop" >
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,15 +37,23 @@
     </div>
   </nav>
   <div class = "hero-text">
-    <div class="title-font">Wassim Katbey</div>
-    <div class = "subtitle-font">
-      Elegant web solutions, efficient implementation
+    <div class="hero-large-font">Wassim Katbey</div>
+    <div class = "hero-large-sub-font">
+      Software Developer, with a large knowledgebase
     </div>
+    <div class="button-cover">
+    	<br><a id = "introButton" href="#intro" class="btn btn-lg btn-outline-secondary">Meet Me</a>
+	</div>
   </div>
+</div>
+<div class="navbar-mobile">
+	<nav class="navbar navbar-light">
+
+	</nav>
 </div>
 <main>
   <div class = "container">
-    <div class = "heading-text" style="padding-bottom: 0px; padding-top: 50px">Allow me to introduce myself</div><hr><br>
+    <div class = "heading-text" style="padding-bottom: 0px; padding-top: 50px" id="intro">Allow me to introduce myself</div><hr><br>
   	<div class="row">
       <div class="col-lg-6 text-center">
         <img class= "self-portrait">
