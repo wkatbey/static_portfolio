@@ -1,5 +1,5 @@
 .hero-image {background-image: url("../img/cover_image.jpeg");height: 1000px;background-position: center;background-repeat: no-repeat;background-size: cover;
-background-position: center; } 
+} 
 .hero-sub-image {background-image: url("../img/cover_image.jpeg");height: 679px;background-position: center;background-repeat: no-repeat;background-size: cover;
 position: relative;}
 .hero-text {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #000;}
@@ -20,8 +20,8 @@ position: relative;}
 /*Resume-Exclusive Classes*/
 .resume-heading {font-size: 27px; font-weight: 300; text-align: center;}
 .self-portrait {height: 500px; width: auto; border-radius: 5px; content: url("../img/primary_pic.jpg")}
-.black-background {background: linear-gradient(to right, #525252, #3d72b4);color: white;background-position: center;position: relative;background-size: cover;background-repeat: no-repeat;
-}
+.black-background {background: linear-gradient(to right, #525252, #3d72b4); color: white; background-position: center;background-repeat: no-repeat;background-size: cover; 
+position: relative;height: 600px;}
 .navbar-transparent { 
 	background: rgba(119,136,153,0); 
 }
