@@ -21,7 +21,7 @@ position: relative;}
 .resume-heading {font-size: 27px; font-weight: 300; text-align: center;}
 .self-portrait {height: 500px; width: auto; border-radius: 5px; content: url("../img/primary_pic.jpg")}
 .black-background {background: linear-gradient(to right, #525252, #3d72b4); color: white; background-position: center;background-repeat: no-repeat;background-size: cover; 
-position: relative;height: 600px;}
+position: relative;}
 .navbar-transparent { 
 	background: rgba(119,136,153,0); 
 }
