@@ -1,0 +1,27 @@
+.resume-heading {
+	font-size: 27px; 
+	font-weight: 300; 
+	text-align: center;
+}
+
+/*Extra Small Devices*/
+@media (max-width: 575.98px) {
+	div.resume-heading {
+		font-size: 20px; 
+		text-align: left;
+	}
+}
+
+@media (max-width: 991.98px) {
+	div.resume-heading {
+		font-size: 20px; 
+		text-align: left;
+	}
+}
+
+@media (max-width: 1199.98px) { 
+	div.resume-heading {
+		font-size: 20px; 
+		text-align: left;
+	}
+}

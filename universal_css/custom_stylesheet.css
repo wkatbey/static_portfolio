@@ -1,6 +1,6 @@
-.hero-image {background-image: url("../img/cover_image.jpeg");height: 1000px;background-position: center;background-repeat: no-repeat;background-size: cover;
+.hero-image {background-image: url("../universal_img/cover_image.jpeg");height: 1000px;background-position: center;background-repeat: no-repeat;background-size: cover;
 } 
-.hero-sub-image {background-image: url("../img/cover_image.jpeg");height: 679px;background-position: center;background-repeat: no-repeat;background-size: cover;
+.hero-sub-image {background-image: url("../universal_img/cover_image.jpeg");height: 679px;background-position: center;background-repeat: no-repeat;background-size: cover;
 position: relative;}
 .hero-text {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #000;}
 .hero-small-text {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);color: #000;}
@@ -19,9 +19,19 @@ position: relative;}
 .card-header {font-size: 23px;}
 /*Resume-Exclusive Classes*/
 .resume-heading {font-size: 27px; font-weight: 300; text-align: center;}
-.self-portrait {height: 24%; width: auto; border-radius: 5px; content: url("../img/primary_pic.jpg")}
+.self-portrait {height: 500px; width: auto; border-radius: 5px; content: url("../universal_img/pic_of_me.jpg")}
 .black-background {background: linear-gradient(to right, #525252, #3d72b4); color: white; background-position: center;background-repeat: no-repeat;background-size: cover; 
 position: relative;}
+
+.body-image-2 {
+    background-image: url("../universal_img/rockefeller_center.jpg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .navbar-transparent { 
 	background: rgba(119,136,153,0); 
 }

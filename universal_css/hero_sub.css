@@ -4,7 +4,7 @@ body, html {
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url("../img/cover_image.jpeg");
+    background-image: url("../universal_img/cover_image.jpeg");
 
     /* Set a specific height */
     height: 40%;
