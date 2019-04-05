@@ -25,9 +25,6 @@
 }
 
 .hero-text {
-	/*position: absolute;*/
-	/*top: 50%;
-	left: 50%;*/
 	transform: translateY(10rem);
 	color: #000;
 }
@@ -96,6 +93,10 @@
 	position: relative;
 }
 
+.navbar-blue {
+	background-color: #002651;
+}
+
 .navbar-transparent { 
 	background: rgba(119,136,153,0); 
 }
@@ -147,13 +148,37 @@
 
 /*Extra Small Devices*/
 @media (min-device-width: 300px) and (max-device-width: 575.98px) {
-	a#introButton {width: 100px; height: 40px; padding-left: 9px; padding-top: 3px; padding-bottom: 0px; padding-right: 10px; border-color: black; color: black;}
-	a#introButton:hover {background-color: black; color: white;}
-	div.button-cover {text-align: left;}
+	a#introButton {
+		width: 100px; 
+		height: 40px; 
+		padding-left: 9px; 
+		padding-top: 3px; 
+		padding-bottom: 0px; 
+		padding-right: 10px; 
+		border-color: black; 
+		color: black;
+	}
 
-	div.hero-large-font {font-size: 30px; font-weight: 400; padding-bottom: 10px;}
+	a#introButton:hover {
+		background-color: black; 
+		color: white;
+	}
+	
+	div.button-cover {
+		text-align: center;
+	}
 
-	div.hero-large-sub-font {font-size: 20px; font-weight: 400;}
+	div.hero-large-font {
+		font-size: 30px; 
+		font-weight: 400; 
+		padding-bottom: 10px;
+	}
+
+	div.hero-large-sub-font {
+		font-size: 20px;
+		font-weight: 400;
+	}
+
 	div.hero-small-font {
 		font-size: 25px; 
 		font-weight: 400; 
@@ -169,11 +194,16 @@
 	} 
 
 	div.hero-text {
-		position: absolute;
-		transform: translateY(30rem);
+		position: relative;
+		transform: translateY(4rem);
 	} 
 
-	div.hero-small-text {top:50%;left:20%;transform: translate(-20%,-50%);}
+	div.hero-small-text {
+		top:50%;
+		left:20%;
+		transform: translate(-20%,-50%);
+	}
+
 	div.subtitle-font {font-size: 15px; font-weight: 600;} 
 	div.hero-image {height: 400px;}
 	div.hero-sub-image {height: 350px;}
@@ -184,7 +214,13 @@
 	div.card-heading-body {font-size: 15px; padding-left: 5px; padding-right: 5px;}
 	div.card-body-text {font-size: 12px; padding-left: 10px; padding-right: 10px;}
 	div.card-header {font-size: 20px}
-	img.self-portrait {height: 300px; width: auto;}
+
+	.self-portrait {
+		height: 18rem; 
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	div.image-side-text {padding-top: 20px; font-size: 15px; padding-left: 10px; padding-right: 10px;}
 	nav.navbar-desktop {display: none;}
 	nav.navbar-mobile {display: block;}
@@ -193,7 +229,7 @@
 	div.hide-on-mobile {display: none;}
 }
 
-@media (max-width: 991.98px) { 
+@media (min-device-width: 576px) and (max-width: 991.98px) { 
 /*	a#introButton {width: 100px; height: 40px; padding-left: 9px; padding-top: 3px; padding-bottom: 0px; padding-right: 10px; border-color: black; color: black;}
 	a#introButton:hover {background-color: black; color: white;}*/
 	div.button-cover {text-align: left;}
@@ -223,14 +259,17 @@
 
 }
 
-@media (max-width: 1199.98px) { 
+@media (min-device-width: 992px) and (max-device-width: 1199.98px) { 
 	div.button-cover {text-align: left;}
 	div.hero-large-font {font-size: 30px; text-align: left; font-weight: 400; padding-bottom: 10px;}
 	div.hero-large-sub-font {font-size: 20px; text-align: left; font-weight: 400;}
 	div.hero-small-font {font-size: 25px; text-align: left; font-weight: 400; padding-bottom: 10px;}
 	div.hero-small-sub-font {font-size: 20px; text-align: left; font-weight: 400;}
 	div.title-font {font-size: 25px; text-align: left;} 
-	div.hero-text {top:20%;left:30%;transform: translate(-30%,-20%);} 
+	div.hero-text {
+		top:20%;left:30%;
+		transform: translate(-30%,-20%);
+	} 
 	div.hero-small-text {top:50%;left:20%;transform: translate(-20%,-50%);}
 	div.subtitle-font {font-size: 15px; font-weight: 600;} 
 	div.hero-image {height: 400px;}

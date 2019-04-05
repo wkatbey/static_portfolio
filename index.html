@@ -17,30 +17,48 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body class="bg-light">
-<div class = "hero-image">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-blue navbar-mobile">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobileContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarMobileContent">
+    <ul class="navbar-nav ml-auto navbar-right">
+      <li class="nav-item">
+        <a class="nav-link nav-text" href=""><i class="fas fa-home"></i> Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-text" href="pages/resume.html"><i class="fas fa-file-signature"></i> Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-text" href="pages/coding_portfolio.html"><i class="fas fa-laptop-code"></i> Coding Portfolio</a>
+      </li>
+      <li class = "nav-item">
+        <a class="nav-link nav-text" href="http://github.com/wkatbey"><i class="fab fa-github"></i> Github</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+ <div class = "hero-image">
   <nav class="navbar navbar-expand-lg navbar-light navbar-transparent navbar-desktop">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto navbar-right">
-        <li class="nav-item">
-          <a class="nav-link nav-text" href=""><i class="fas fa-home"></i> Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-text" href="pages/resume/resume.html"><i class="fas fa-file-signature"></i> Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-text" href="pages/coding_portfolio/coding_portfolio.html"><i class="fas fa-laptop-code"></i> Coding Portfolio</a>
-        </li>
-        <li class = "nav-item">
-          <a class="nav-link nav-text" href="http://github.com/wkatbey"><i class="fab fa-github"></i> Github</a>
-        </li>
-<!--         <li class = "nav-item">
-          <a class="nav-link nav-text" href="pages/photography/photography.html">Photography</a>
-        </li> -->
-      </ul>
-    </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto navbar-right">
+          <li class="nav-item">
+            <a class="nav-link nav-text" href=""><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="pages/resume/resume.html"><i class="fas fa-file-signature"></i> Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="pages/coding_portfolio/coding_portfolio.html"><i class="fas fa-laptop-code"></i> Coding Portfolio</a>
+          </li>
+          <li class = "nav-item">
+            <a class="nav-link nav-text" href="http://github.com/wkatbey"><i class="fab fa-github"></i> Github</a>
+          </li>
+        </ul>
+      </div>
   </nav>
   <div class = "hero-text text-center">
     <div class="hero-large-font">Wassim Katbey</div>
@@ -49,32 +67,12 @@
     </div>
     <div class="button-cover">
       <form action="#intro">
-    	 <br><button type="submit" id = "introButton" class="btn-hover color-9">Meet Me</button>
+       <br><button type="submit" id = "introButton" class="btn-hover color-9">Meet Me</button>
       </form>
-	   </div>
+    </div>
   </div>
 </div>
- <nav class="navbar navbar-expand-lg navbar-light navbar-transparent navbar-mobile">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobileContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarMobileContent">
-      <ul class="navbar-nav ml-auto navbar-right">
-        <li class="nav-item">
-          <a class="nav-link nav-text" href=""><i class="fas fa-home">Home</i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-text" href="pages/resume.html">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-text" href="pages/coding_portfolio.html">Coding Portfolio</a>
-        </li>
-        <li class = "nav-item">
-          <a class="nav-link nav-text" href="http://github.com/wkatbey">Github</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+
 <main>
   <div class = "container">
     <div class = "heading-text" style="padding-bottom: 0px; padding-top: 50px" id="intro">Allow me to introduce myself</div><hr><br>
